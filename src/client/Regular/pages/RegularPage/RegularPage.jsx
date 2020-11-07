@@ -2,7 +2,7 @@ import React from 'react';
 
 const RegularPage = () => {
     return (
-        <div>'Hello from regular page'</div>
+        <div>'Hi from regular page'</div>
     );
 };
 
