@@ -5,8 +5,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 import * as serviceWorker from './service-worker';
 import reportWebVitals from './report-web-vitals';
-import { App } from './app/componets/App/App.jsx';
-import store from './app/store/store.jsx';
+import { App } from './app/componets/App';
+import store from './app/store/store';
 
 render(
   <React.StrictMode>
