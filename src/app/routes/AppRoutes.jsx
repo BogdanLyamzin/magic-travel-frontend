@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { ExamplePage } from '../../client/example/pages/ExamplePage';
 import  SpecialTours  from '../../client/SpecialTours/pages/SpecialTours';
+import  TourPage  from '../../client/TourPage/pages/TourPage';
 
 export const AppRoutes = () => {
   return (
@@ -14,6 +15,9 @@ export const AppRoutes = () => {
       </Route>
       <Route exact path="/st">
         <SpecialTours/>
+      </Route>
+      <Route path="/specialtour">
+        <TourPage/>
       </Route>
     </Switch>
   );
