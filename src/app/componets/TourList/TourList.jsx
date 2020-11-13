@@ -1,12 +1,15 @@
 import React from 'react';
-import { Card, Button, Container, Row, Col, Nav} from 'react-bootstrap'; 
+import { Card, Button, Container, Row, Col, Nav} from 'react-bootstrap';
+import {Redirect, Router, Route, Link, useHistory} from 'react-router-dom';   
 
-const TourList = ({list}) => {
-    // const headerStyle ={
-    //     backgroundImage: `url(https://picsum.photos/300)`,
-    //     height: '300px',
-    //     width: '300px',        
-    //   } 
+const TourList = ({list, setCard}) => {    
+
+    let history = useHistory();
+  
+    const redirect = (item) => {
+      setCard(item);        
+      history.push('/specialtour')
+    }
 
 const Array = list.map((item, index) => { 
     return (
@@ -17,14 +20,9 @@ const Array = list.map((item, index) => {
                         <Card.Title>{item.name}</Card.Title>
                         <Card.Text>{item.keys}</Card.Text>
                         <Card.Text>${item.price}</Card.Text>
-                        {/* <Button variant="primary">Див. деталі</Button> */}
-                        <Nav.Link href={"/specialtour/6"}>Див. деталі</Nav.Link>
+                        <button onClick={()=>redirect(item)}>Redirect</button>
                     </Card.Body>
-            </Card>
-            {/* <button>{item.name}</button>
-            <div style={headerStyle}></div>
-            <span>price:{item.price}</span>
-            <span>tags:{item.keys}</span>                             */}
+            </Card>            
         </Col>       
     )});
     return (        
