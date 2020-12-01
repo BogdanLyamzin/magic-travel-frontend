@@ -1,0 +1,165 @@
+{
+    "countries": [
+        {
+            "countryId": 147573,
+            "name": "Австрия",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/bg.jpg",
+            "priceMin": 4400,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 257195,
+            "name": "Андорра",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 4300,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 4106029,
+            "name": "Беларусь",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 4200,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 158976,
+            "name": "Болгария",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/bg.jpg",
+            "priceMin": 4000,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 128573,
+            "name": "Венгрия",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 4100,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 152903,
+            "name": "Германия",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 3900,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 7067498,
+            "name": "Греция",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 3800,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 1001354,
+            "name": "Грузия",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 3700,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 111241,
+            "name": "Доминикана",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/do.jpg",
+            "priceMin": 3600,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 5732,
+            "name": "Египет",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 3500,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 143785,
+            "name": "Израиль",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 3400,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 158062,
+            "name": "Индонезия",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 3300,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 5733,
+            "name": "Испания",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 32000,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 154020,
+            "name": "Италия",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 3100,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 7067673,
+            "name": "Кипр",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 3000,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 140009,
+            "name": "Китай",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 2900,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 111137,
+            "name": "Куба",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 2600,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 166775,
+            "name": "Мальдивы",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/mv.jpg",
+            "priceMin": 2500,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 7067149,
+            "name": "ОАЭ",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/ae.jpg",
+            "priceMin": 2300,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 12695,
+            "name": "Таиланд",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 1800,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 1104,
+            "name": "Турция",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/tr.jpg",
+            "priceMin": 1700,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 136683,
+            "name": "Франция",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 1400,
+            "currencyId": 5561
+        },
+        {
+            "countryId": 138865,
+            "name": "Шри-Ланка",
+            "imageUrlCountry": "https://export.otpusk.com/os/countries/eg.jpg",
+            "priceMin": 1200,
+            "currencyId": 5561
+        }
+    ]
+}
