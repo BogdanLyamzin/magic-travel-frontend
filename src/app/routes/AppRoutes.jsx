@@ -7,12 +7,12 @@ import ItemCountry from '../../shared/components/ItemCountry';
 export const AppRoutes = () => {
   return (
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/404">
         {' '}
         <Error404 />
       </Route>
 
-      <Route exact path="/ListCountry">
+      <Route exact path="/">
         {' '}
         <ListsCountry />
       </Route>
