@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
+
+@media (min-width: 1201px) {
+  .sp-tour {
+    &-container {
+      max-width: 1100px;
+    }
+    &-view {
+      height: 244px;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .sp-tour {
+    &-container {
+      max-width: 1000px;
+    }
+    &-view {
+      height: 222px;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .sp-tour {
+    &-container {
+      max-width: 900px;
+    }
+    &-view {
+      height: 200px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .sp-tour {
+    &-container {
+      width: 800px;
+    }
+    &-view {
+      height: 178px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .sp-tour {
+    &-container {
+      width: 700px;
+    }
+    &-view {
+      height: 156px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .sp-tour {
+    &-container {
+      width: 550px;
+    }
+    &-view {
+      height: 183px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .sp-tour {
+    &-container {
+      width: 90%;
+    }
+    &-view {
+      height: auto;
+    }
+  }
+}
+
+.sp-tour {
+  &-container {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  &-maintext {
+    font-weight: 600;
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  &-secondarytext {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    margin-bottom: 24px;
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+}

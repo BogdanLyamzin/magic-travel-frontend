@@ -1,0 +1,56 @@
+.sp-tour {
+  padding: 10px;
+  position: relative;
+  &-name {
+    font-size: calc(0.5rem + 0.9vw);
+    font-weight: 600;
+    height: calc((0.5rem + 0.9vw) * 4);
+  }
+  &-button {
+    font-size: 16px;
+    width: calc(100% + 40px);
+    height: 44px;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background: rgb(81, 145, 250);
+    border-color: rgba(255, 255, 255, 0);
+    margin-left: -20px;
+  }
+  &-content {
+    box-sizing: border-box;
+    border: 1px solid rgb(240, 240, 240);
+    padding: 20px 20px 0 20px;
+  }
+  &-view {
+    overflow: hidden;
+  }
+  &-img {
+    min-height: 100%;
+  }
+  &-tags {
+    font-size: 16px;
+    height: 48px;
+  }
+  &-price {
+    background: rgb(81, 145, 250);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    left: 0;
+    top: 30px;
+    position: absolute;
+    &:after {
+      border-left: 10px solid rgba(0, 0, 0, 0);
+      border-right: 0 solid rgba(0, 0, 0, 0);
+      border-top: 7px solid #006e2c;
+      bottom: -7px;
+      content: '';
+      left: 0;
+      position: absolute;
+    }
+  }
+}

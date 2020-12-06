@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, Button, Container, Row, Col, Nav} from 'react-bootstrap';
-import {Redirect, Router, Route, Link, useHistory} from 'react-router-dom';   
+import { useHistory } from 'react-router-dom';
+import './tourList.scss';   
 
 const TourList = ({list, setCard}) => {    
 
@@ -13,24 +13,22 @@ const TourList = ({list, setCard}) => {
 
 const Array = list.map((item, index) => { 
     return (
-        <Col key={index}>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={item.img}/>
-                    <Card.Body>
-                        <Card.Title>{item.name}</Card.Title>
-                        <Card.Text>{item.keys}</Card.Text>
-                        <Card.Text>${item.price}</Card.Text>
-                        <button onClick={()=>redirect(item)}>Redirect</button>
-                    </Card.Body>
-            </Card>            
-        </Col>       
+        <div className="col-lg-4 col-md-4 col-sm-6 m-b30 sp-tour" key={index}>
+            <div>
+                <div className='sp-tour-price'>${item.price}</div>
+                <div className='sp-tour-view'>                                   
+                    <img className="card-img-top sp-tour-img" src={item.img} alt={item.name}/>                                           
+                </div>    
+                    <div className='sp-tour-content'>                            
+                        <div className='text-center sp-tour-name'>{item.name}</div>
+                        <div className='text-center sp-tour-tags'>{item.keys}</div>
+                        <button className='sp-tour-button'onClick={()=>redirect(item)}>Дивитись тур</button>
+                    </div>
+            </div>            
+        </div>       
     )});
-    return (        
-            <Container fluid>
-                <Row md={3}>
-                    {Array}
-                </Row>            
-            </Container>        
+    return (           
+        <div className='row'>{Array}</div>       
     )
 };
 

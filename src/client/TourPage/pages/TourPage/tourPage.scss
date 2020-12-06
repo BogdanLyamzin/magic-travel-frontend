@@ -1,0 +1,55 @@
+.sp-tour {
+  &-day {
+    margin: 3% 0;
+  }
+  &-order {
+    font-size: 16px;
+    width: 100%;
+    height: 44px;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background: rgb(81, 145, 250);
+    border-color: rgba(255, 255, 255, 0);
+  }
+  &-length {
+    background-color: #5191fa;
+    color: rgb(255, 255, 255);
+    max-width: 130px;
+    text-align: center;
+    height: 1.5rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  &-info {
+    min-height: 100px;
+  }
+}
+.day-details-box {
+  padding: 30px;
+  border: 1px solid #e2f3ff;
+  border-radius: 4px;
+  background: #fafdff;
+  box-sizing: border-box;
+}
+.day-number {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #5191fa;
+  color: rgb(255, 255, 255);
+  min-width: 130px;
+  text-align: center;
+  position: relative;
+  height: 50px;
+  padding-top: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  &:after {
+    content: '\2023';
+    position: absolute;
+    color: #5191fa;
+    right: -18px;
+    font-size: 60px;
+    top: -26px;
+  }
+}
