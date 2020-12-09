@@ -9,6 +9,7 @@ export default class AuthService extends BaseHttpService {
       email,
       password,
     });
+
     this.saveToken(data);
     return data;
   }
