@@ -4,9 +4,7 @@ import './Button.scss';
 
 const Button = () => {
     return (
-        <button>
-
-        </button>
+      <button />
     );
 };
 
