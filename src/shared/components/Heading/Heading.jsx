@@ -1,11 +1,7 @@
 import React from 'react';
 
 const Heading = () => {
-    return (
-        <h2>
-
-        </h2>
-    );
+  return <h2>Heading</h2>;
 };
 
 export default Heading;
