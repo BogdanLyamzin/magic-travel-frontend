@@ -1,16 +1,34 @@
+@media (min-width: 900px) {
+  .low {
+    display: none;
+  }
+  .high {
+    display: block;
+  }
+}
+@media (max-width: 899px) {
+  .low {
+    display: block;
+  }
+  .high {
+    display: none;
+  }
+}
+
 .sp-tour {
   &-day {
     margin: 3% 0;
+    width: 100%;
   }
   &-order {
     font-size: 16px;
     width: 100%;
     height: 44px;
-    display: block;
     color: rgb(255, 255, 255);
     font-weight: 600;
     background: rgb(81, 145, 250);
     border-color: rgba(255, 255, 255, 0);
+    margin-bottom: 56px;
   }
   &-length {
     background-color: #5191fa;
@@ -24,13 +42,49 @@
   &-info {
     min-height: 100px;
   }
+  &-main {
+    &block {
+      width: 100%;
+    }
+    &image {
+      @media (min-width: 1200px) {
+        width: 68%;
+      }
+      @media (max-width: 1199px) and (min-width: 900px) {
+        width: 74%;
+      }
+      height: auto;
+      @media (max-width: 899px) {
+        width: 100%;
+      }
+    }
+  }
+  &-advert {
+    @media (min-width: 1200px) {
+      width: 28%;
+    }
+    @media (max-width: 1199px) and (min-width: 900px) {
+      width: 24%;
+    }
+    @media (max-width: 899px) {
+      display: none;
+    }
+    &image {
+      width: 100%;
+    }
+  }
+  &-titleimage {
+    width: 100%;
+  }
 }
 .day-details-box {
+  margin-left: 2%;
   padding: 30px;
   border: 1px solid #e2f3ff;
   border-radius: 4px;
   background: #fafdff;
   box-sizing: border-box;
+  width: 100%;
 }
 .day-number {
   font-size: 18px;
@@ -51,5 +105,23 @@
     right: -18px;
     font-size: 60px;
     top: -26px;
+  }
+}
+.day-content {
+  &-image {
+    width: 30%;
+    height: 200px;
+    margin: auto 0 auto 5%;
+    overflow: hidden;
+    &-img {
+      width: 200%;
+      height: auto;
+      display: block;
+      overflow: hidden;
+    }
+  }
+  &-text {
+    margin: auto 0;
+    width: 70%;
   }
 }

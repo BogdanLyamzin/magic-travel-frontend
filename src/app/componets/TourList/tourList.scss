@@ -5,6 +5,10 @@
     font-size: calc(0.5rem + 0.9vw);
     font-weight: 600;
     height: calc((0.5rem + 0.9vw) * 4);
+    &-main {
+      height: auto;
+      margin-bottom: 10px;
+    }
   }
   &-button {
     font-size: 16px;

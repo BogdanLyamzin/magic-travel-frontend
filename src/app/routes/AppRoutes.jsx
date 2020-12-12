@@ -10,7 +10,8 @@ const cardTemplate = {
   description: "",
   buyDay:"['','']",
   keys: "",
-  img:"fishing1.jpeg"
+  img:"fishing1.jpeg",
+  img_day:"[]"
 }
 
 export const AppRoutes = () => {
