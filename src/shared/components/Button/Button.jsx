@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Button.scss';
 
-const Button = ({children}) => {
+const Button = ({className,children}) => {
     return (
-        <button>
+        <button className={className}>
             {children}
         </button>
     );
